@@ -75,10 +75,10 @@ const Item: React.FC<Props> = (props) => {
   }
 
   return (
-    <a href={link} className="ml-3 mr-2 mb-2 d-block" target="_blank">
+    <a href={link} className="ml-3 mr-2 mb-2 d-block">
       <Card className="card">
         <div className="card-body">
-          <a href={link} target="_blank">
+          <a href={link}>
             <picture>
               <source srcSet={preview} type="image/webp" />
               <img src={previewPNG} alt={item.name} className="card-img-top" />
